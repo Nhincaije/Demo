@@ -1,0 +1,130 @@
+.banner {
+    background: url("img/truong.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top:12rem;
+    padding-bottom: 12rem;
+    text-align:center !important;
+    color: white !important;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+.slogan {
+    text-align: center !important;
+    width:100%;
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    background-color:#e0e0e0;
+    padding: 10px 0;
+}
+.block_3 {
+    flex: 0 0 auto;
+    width:30%;
+    margin:10px;
+}
+.cell_img {
+    width:50%;
+}
+.cell_text {
+    width: 50%;
+    padding-left: 5rem;
+    background-color: #f3efe6;
+    padding: 20px;
+    border-radius: 10px;
+}
+.img {
+    width:100%;
+    height:auto;
+    display: block;
+}
+footer {
+    background-color: #e0e0e0;
+    margin-top: 30px;
+    padding: 20px;
+}
+.link{
+    color: navy;
+    text-align:left;
+}
+.menu {
+    font-size:120%;
+    text-decoration: none;
+}
+.cell {
+    text-align: justify;
+    padding: 1.5em;
+}
+/*doianh*/
+.bruh img {
+    display: none; width: 100%;
+}
+.bruh .d{
+    display: block;
+}
+:target ~ .bruh .d{
+    display: none;
+}
+/*gianhang*/
+#Sangtao:target ~ .bruh .g1 {display: block;}
+#cacmonan:target ~ .bruh .g2 {display: block;}
+#thanhpham:target ~ .bruh .g3 {display: block;}
+
+/*dalat*/
+#Chodemdalat:target ~ .bruh .d {display: block;}
+#mongoland:target ~ .bruh .g1 {display: block;}
+#nhathomaianh:target ~ .bruh .g2 {display: block;}
+#giaolucongchieng:target ~ .bruh .g3 {display: block;}
+#thienvientruclam:target ~ .bruh .g4 {display: block;}
+
+/*vannghe*/
+#cactietmuchiendai:target ~ .bruh .d {display: block;}
+#cactietmucmua:target ~ .bruh .g1 {display: block;}
+#hoidienthanhlich:target ~ .bruh .g2 {display: block;}
+table{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+.bruh img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.bruh {
+    background-color: white;
+}
+.bruh td {
+    padding: 10px;
+}
+td ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+td ul li {
+    margin: 10px 0;
+}
+.menu {
+    display: block;
+    padding: 10px;
+    border-radius: 6px;
+    color: #333;
+}
+.menu:hover {
+    background-color: #ddd;
+}
+table {
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.vien {
+    width: calc(100% - 80px);
+    margin: 16px auto;
+}
