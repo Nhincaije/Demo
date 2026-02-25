@@ -55,8 +55,8 @@ footer {
     text-align: justify;
     padding: 1.5em;
 }
-/*doianh*/
-.bruh img {
+/*doianh&chu*/
+.bruh img, .bruh h2, .bruh p  {
     display: none; width: 100%;
 }
 .bruh .d{
