@@ -1,5 +1,5 @@
 .banner {
-    background: url("img/truong.jpg") no-repeat center center;
+    background: url("img/truong\ \(2\).jpg") no-repeat center center;
     background-size: cover;
     padding-top:12rem;
     padding-bottom: 12rem;
@@ -127,4 +127,11 @@ table {
 .vien {
     width: calc(100% - 80px);
     margin: 16px auto;
+}
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 150px;
+
 }
